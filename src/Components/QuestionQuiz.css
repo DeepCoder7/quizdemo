@@ -1,0 +1,26 @@
+.quizSection {
+    width: 96%;
+    height: 78%;
+    /* background-color: plum; */
+    background-image: linear-gradient(180deg, rgb(223, 120, 223), rgb(219, 201, 219));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.questionSection{
+    width: 90%;
+    position: relative;
+    left: 2%;
+    font-size: 20px;
+}
+
+.answerOpt{
+    width: 95%;
+    background: none;
+    border: 2px solid rgb(182, 145, 203);
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 2%;
+    text-align: start;
+}
