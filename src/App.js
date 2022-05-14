@@ -4,32 +4,32 @@ import QuestionQuiz from './Components/QuestionQuiz';
 
 const questions = [
   {
-    question: "What's Your Name ?",
+    question: "React.js is a free and open-source front-end .....",
     quizoptns: [
-      { answer: "Pradeep", isAnswer: true, clicked: false },
-      { answer: "Sunil", isAnswer: false, clicked: false },
-      { answer: "Anil", isAnswer: false, clicked: false },
-      { answer: "Aakash", isAnswer: false, clicked: false },
+      { answer: "JavaScript library", isAnswer: true, clicked: false },
+      { answer: "Bootstrap library", isAnswer: false, clicked: false },
+      { answer: "CSS library", isAnswer: false, clicked: false },
+      { answer: "None of the Above", isAnswer: false, clicked: false },
     ],
     answered: false
   },
   {
-    question: "What's Your Age ?",
+    question: "React.js was Initially released in....",
     quizoptns: [
-      { answer: 20, isAnswer: true, clicked: false },
-      { answer: 40, isAnswer: false, clicked: false },
-      { answer: 18, isAnswer: false, clicked: false },
-      { answer: 23, isAnswer: false, clicked: false },
+      { answer: "April 29, 2013", isAnswer: false, clicked: false },
+      { answer: "May 29, 2013", isAnswer: true, clicked: false },
+      { answer: "June 29, 2013", isAnswer: false, clicked: false },
+      { answer: "May 29, 2014", isAnswer: false, clicked: false },
     ],
     answered: false
   },
   {
-    question: "What's Your Best Friend Name ?",
+    question: "What is Babel?",
     quizoptns: [
-      { answer: "Sonu", isAnswer: false, clicked: false },
-      { answer: "Anil", isAnswer: false, clicked: false },
-      { answer: "Deepak", isAnswer: true, clicked: false },
-      { answer: "Aakash", isAnswer: false, clicked: false },
+      { answer: "A JavaScript transpiler", isAnswer: false, clicked: false },
+      { answer: "A JavaScript interpreter", isAnswer: false, clicked: false },
+      { answer: "A JavaScript Compiler", isAnswer: true, clicked: false },
+      { answer: "None Of the above", isAnswer: false, clicked: false },
     ],
     answered: false
   },
