@@ -24,3 +24,9 @@
     margin-left: 2%;
     text-align: start;
 }
+
+@media screen and (max-width: 700px) {
+    .questionSection{
+        font-size: 16px;
+    }
+}

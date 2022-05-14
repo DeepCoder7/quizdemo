@@ -6,30 +6,30 @@ const questions = [
   {
     question: "React.js is a free and open-source front-end .....",
     quizoptns: [
-      { answer: "JavaScript library", isAnswer: true, clicked: false },
-      { answer: "Bootstrap library", isAnswer: false, clicked: false },
-      { answer: "CSS library", isAnswer: false, clicked: false },
-      { answer: "None of the Above", isAnswer: false, clicked: false },
+      { answer: "JavaScript library", color:"green", isAnswer: true, clicked: false },
+      { answer: "Bootstrap library", color:"red",isAnswer: false, clicked: false },
+      { answer: "CSS library", color:"red",isAnswer: false, clicked: false },
+      { answer: "None of the Above", color:"red",isAnswer: false, clicked: false },
     ],
     answered: false
   },
   {
     question: "React.js was Initially released in....",
     quizoptns: [
-      { answer: "April 29, 2013", isAnswer: false, clicked: false },
-      { answer: "May 29, 2013", isAnswer: true, clicked: false },
-      { answer: "June 29, 2013", isAnswer: false, clicked: false },
-      { answer: "May 29, 2014", isAnswer: false, clicked: false },
+      { answer: "April 29, 2013", color:"red",isAnswer: false, clicked: false },
+      { answer: "May 29, 2013", color:"green",isAnswer: true, clicked: false },
+      { answer: "June 29, 2013", color:"red",isAnswer: false, clicked: false },
+      { answer: "May 29, 2014", color:"red",isAnswer: false, clicked: false },
     ],
     answered: false
   },
   {
     question: "What is Babel?",
     quizoptns: [
-      { answer: "A JavaScript transpiler", isAnswer: false, clicked: false },
-      { answer: "A JavaScript interpreter", isAnswer: false, clicked: false },
-      { answer: "A JavaScript Compiler", isAnswer: true, clicked: false },
-      { answer: "None Of the above", isAnswer: false, clicked: false },
+      { answer: "A JavaScript transpiler", color:"red",isAnswer: false, clicked: false },
+      { answer: "A JavaScript interpreter", color:"red",isAnswer: false, clicked: false },
+      { answer: "A JavaScript Compiler", color:"green",isAnswer: true, clicked: false },
+      { answer: "None Of the above", color:"red",isAnswer: false, clicked: false },
     ],
     answered: false
   },

@@ -10,7 +10,7 @@ const QuestionQuiz = (props) => {
                 <b>{question}</b>
             </div>
             {quizoptns.map((quizOpt, index) => {
-                return <button key={index} onClick={() => { props.handleAns(quizOpt.isAnswer, index) }} className="answerOpt" disabled={quizOpt.clicked || props.quiz.answered} style={{borderColor: quizOpt.clicked?'green':'rgb(182, 145, 203)'}} ><b>{quizOpt.answer}</b></button>
+                return <button key={index} onClick={() => { props.handleAns(quizOpt.isAnswer, index) }} className="answerOpt" disabled={quizOpt.clicked || props.quiz.answered} style={{background: quizOpt.clicked?`${quizOpt.color}`:'none'}} ><b>{quizOpt.answer}</b></button>
             })}
         </div>
     )
